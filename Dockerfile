@@ -1,5 +1,4 @@
 FROM node
-RUN node –-version
 WORKDIR /app
 ADD . /app
 RUN npm install
