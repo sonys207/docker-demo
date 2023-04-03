@@ -1,4 +1,4 @@
-node(label: 'node22') {
+node {
    def commit_id
    stage('Preparation') {
      checkout scm
