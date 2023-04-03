@@ -1,6 +1,7 @@
 FROM node
 WORKDIR /app
 ADD . /app
-RUN npm install
+run ls -lrt
+run npm install
 EXPOSE 3000
 CMD npm start
