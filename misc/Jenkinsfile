@@ -1,4 +1,4 @@
-node(label: 'builder2') {
+node(label: 'node22') {
    def commit_id
    stage('Preparation') {
      checkout scm
