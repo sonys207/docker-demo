@@ -1,4 +1,4 @@
-FROM node
+FROM node:16.20-bullseye
 WORKDIR /app
 ADD . /app
 run ls -lrt
